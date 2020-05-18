@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "ratatouille";
+    src: url("ratatouille.ttf") format("truetype");
+}
+html{
+	font-family: "ratatouille";
+	cursor: url("logo_gbg.svg");
+}
+body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background: radial-gradient(rgb(0,0,50), rgb(0,0,0));
+}
+
+#zizi{
+	text-align: center;
+	vertical-align: middle;
+	}
+	span{
+		color: rgba(255,255,255,0.5);
+		vertical-align: middle;
+	}
+
+#logoBig{
+	width: 40%;
+	transition-duration: 0.5s;
+}
+	#logoBig:hover{
+		width: 45%;
+	}
+	.centrer{
+		transform: translate(-50%,-50%);
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	width:40%;
+	transition-duration: 0.5s;
+	}
